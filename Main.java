@@ -4,8 +4,11 @@ import java.util.Scanner;
 class Main {
     public static void main(String[] args) {
 
+        System.out.print("Enter a name: ");
+        String playerName = new Scanner(System.in).nextLine();
+
         Deck deck1 = new Deck().create().shuffle();
-        HumanPlayer player = new HumanPlayer("sucker");
+        HumanPlayer player = new HumanPlayer(playerName);
         CpuPlayer dealer = new CpuPlayer("dealer").setTryAlwaysWin(true);
         int result[] = {0, 0, 0};
         //           wins losses draws
