@@ -46,7 +46,7 @@ public class Player {
     }
 
     public String toString(){
-        return (name + (ifAdd_S_AtEndOfApostrophe(name) ? "'s" : "") + " score: " + handValue + ". On hand: " + playerDeck) ;
+        return (name + (ifAdd_S_AtEndOfApostrophe(name) ? "'s" : "'") + " score: " + handValue + ". On hand: " + playerDeck) ;
     }
 
     public Player rewind(){
