@@ -1,6 +1,6 @@
 # JBlackjack
 
-Play blackjack on terminal, now built once and run everywhere.
+Play blackjack on terminal, now build once and run everywhere.
 
 ## Gameplay
 
