@@ -22,11 +22,11 @@ D | Diamonds
 H | Hearts
 S | Spaces
 
-Cards does not repeat.
+Cards do not repeat.
 
 
 ## Downloads
 
-Download [here](https://github.com/1chard/JBlackjack/releases), or compile it.
+Download [here](https://github.com/1chard/JBlackjack/releases) (it requires java 11 or later)
 
 
